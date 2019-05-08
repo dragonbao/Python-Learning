@@ -8,6 +8,17 @@
               输出为记事本文件.自动保存
               
               脚本编码采取python语言 可视化界面采用HTMI+JS+CSS
-              暂不用VUE等
-              
+----------------------------------------------------
+
+
+
+import os
+def match_files(fileroot):
+    for root dir file in os.walk(fileroot):
+        for file_dir in dir:
+            print("this files's file dirdir si:", %s,file_dir)
+    for root dir file in os.walk(file):
+        for file_file in file:
+            print("this files's file dirfile is:", %s,file_file)
+ match_file("E\\python\\testfile")
               
